@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+   
+    "start": "nodemon server.js"
+  }
+}
