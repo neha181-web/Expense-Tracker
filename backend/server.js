@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import 'dotenv/config';
+
 import userRouter from './routes/userRoute.js';
 import incomeRouter from './routes/incomeRoute.js';
 import { connectDB } from './config/db.js';
@@ -8,7 +9,7 @@ import expenseRouter from './routes/expenseRoute.js';
 import dashboardRouter from './routes/dashboardRoute.js';
 
 const app = express();
-const port = 4000;
+const port = process.env.PORT ||4000;
 
 // MIDDLEWARESs
 app.use(cors());
