@@ -30,7 +30,7 @@ import { getTimeFrameRange, generateChartPoints } from "../components/Helpers";
 import { CATEGORY_ICONS } from "../assets/Color";
 import { expensePageStyles as styles } from "../assets/dummyStyles";
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://expense-tracker-backend-rla5.onrender.com/api";
 
 /**
  * Helper: convert date (or datetime) to ISO by attaching client current time

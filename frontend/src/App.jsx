@@ -17,7 +17,7 @@ import Expense from "./pages/Expense";
 import Profile from "./pages/Profile";
 
 // Backend URL
-const API_URL = "http://localhost:4000";
+const API_URL = "https://expense-tracker-backend-rla5.onrender.com/api";
 
 // Get transactions from localStorage
 const getTransactionsFromStorage = () => {

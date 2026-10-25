@@ -30,7 +30,7 @@ import {
 // API
 // =====================================================
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://expense-tracker-backend-rla5.onrender.com/api";
 
 // =====================================================
 // CATEGORY ICONS
