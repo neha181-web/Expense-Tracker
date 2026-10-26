@@ -7,7 +7,7 @@ export const exportToExcel = (data, fileName = "transactions") => {
     }
 
     try {
-        const worksheet = XLSX.utilis.json_to_sheet(data);
+        const worksheet = XLSX.utils.json_to_sheet(data);
 
         //create a workbook
         const workbook = XLSX.utils.book_new();
