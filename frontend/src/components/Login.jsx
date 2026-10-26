@@ -53,7 +53,7 @@ const Login = ({ onLogin, API_URL = "https://expense-tracker-backend-r1a5.onrend
 
     try {
       const res = await axios.post(
-        `${API_URL}/api/user/login`,
+        `${API_URL}/user/login`,
         {
           email,
           password
