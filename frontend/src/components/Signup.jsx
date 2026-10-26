@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 const Signup = ({
-  API_URL = "https://expense-tracker-backend-rla5.onrender.com/api",
+  API_URL = "https://expense-tracker-backend-r1a5.onrender.com/api",
   onSignup,
 }) => {
   const [name, setName] = useState("");

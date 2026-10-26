@@ -24,7 +24,7 @@ import {
   toast,
 } from "react-toastify";
 
-const BASE_URL = "https://expense-tracker-backend-rla5.onrender.com/api";
+const BASE_URL = "https://expense-tracker-backend-r1a5.onrender.com/api";
 
 Modal.setAppElement("#root");
 

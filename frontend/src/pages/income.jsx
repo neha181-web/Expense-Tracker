@@ -32,7 +32,7 @@ import { INCOME_COLORS, CATEGORY_ICONS_Inc } from "../assets/Color";
 import { incomeStyles as styles } from "../assets/dummyStyles";
 
 const API_BASE = 
-"https://expense-tracker-backend-rla5.onrender.com/api";
+"https://expense-tracker-backend-r1a5.onrender.com/api";
 
 //helps in converting date to ISO time
 function toIsoWithClientTime(dateValue) {
