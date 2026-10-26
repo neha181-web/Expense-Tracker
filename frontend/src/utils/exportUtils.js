@@ -10,7 +10,7 @@ export const exportToExcel = (data, fileName = "transactions") => {
         const worksheet = XLSX.utilis.json_to_sheet(data);
 
         //create a workbook
-        const workbook = XLSX.utilis.book_new();
+        const workbook = XLSX.utils.book_new();
         XLSX.utils.book_append_sheet(workbook, worksheet, "Transactions");
 
         //Generate a Excel file and trigger download
